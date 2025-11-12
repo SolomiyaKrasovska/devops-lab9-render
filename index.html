@@ -1,38 +1,64 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevOps Lab 9 - PaaS Demo</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-       
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f7f9fc;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevOps Lab 9 - PaaS Demo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0a0a0a;
+      color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .neon-red {
+      text-shadow: 0 0 8px #ff0000, 0 0 16px #ff2d2d, 0 0 32px #ff0000;
+    }
+    .card {
+      background: linear-gradient(145deg, #111, #1a1a1a);
+      border: 1px solid #ff0000;
+      box-shadow: 0 0 15px #ff0000a8;
+    }
+    .student-vibe {
+      font-family: 'Comic Sans MS', cursive;
+      color: #ff4d4d;
+      text-shadow: 0 0 6px #ff1a1a;
+    }
+  </style>
 </head>
 <body>
-    <div class="max-w-md w-full p-8 bg-white shadow-xl rounded-xl border border-blue-100 text-center transform transition duration-500 hover:scale-[1.02]">
-        <svg class="mx-auto h-12 w-12 text-blue-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L13.25 10.75M13.25 10.75L16.75 17M13.25 10.75L12 7.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-        <h1 class="text-3xl font-extrabold text-gray-800 mb-2">Лабораторна робота №9: PaaS</h1>
-        
-        
-        <p class="text-xl font-bold text-gray-700 mt-6">
-            Студентка: Соломія Красовська
-        </p>
+  <div class="max-w-lg w-full p-8 rounded-xl text-center transform transition duration-500 hover:scale-[1.03] card">
+    <h1 class="text-3xl font-extrabold neon-red mb-3">
+      Лабораторна робота №9: PaaS. Хостинг
+    </h1>
 
-        <p class="text-sm text-gray-500 mt-4">
-            Сайт демонструє розгортання на платформі PaaS.
-        </p>
-    </div>
+    <p class="text-gray-300 mt-4 text-lg">
+      Тема роботи — <span class="text-red-500 font-semibold">хостинг на платформі PaaS</span>.
+      Мета — навчитися створювати та розгортати власний сайт у хмарному середовищі.
+    </p>
+
+    <p class="text-gray-400 mt-4">
+      <span class="text-red-500 font-bold">Render</span> — це сучасна хмарна платформа типу <span class="italic">Platform as a Service</span>.
+      Вона дозволяє розміщувати вебсайти, API та застосунки без складного налаштування серверів.
+    </p>
+
+    <p class="text-gray-400 mt-4">
+      У межах лабораторної роботи було створено простий сайт з власним іменем,
+      який демонструє роботу хостингу через Render.
+    </p>
+
+    <p class="text-xl font-bold student-vibe mt-6">
+      Студентка: Соломія Красовська 💻
+    </p>
+
+    <p class="text-sm text-gray-500 mt-3 italic">
+      “Якщо сайт працює — значить, усе вдалося 😎”
+    </p>
+  </div>
 </body>
 </html>
