@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DevOps Lab 9 - PaaS Demo</title>
+  <title>Лабораторна робота №9 — PaaS. Хостинг</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body {
       font-family: 'Inter', sans-serif;
       background-color: #0a0a0a;
-      color: #f2f2f2;
+      color: #f5f5f5;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -17,47 +17,48 @@
       margin: 0;
     }
     .neon-red {
-      text-shadow: 0 0 8px #ff0000, 0 0 16px #ff2d2d, 0 0 32px #ff0000;
+      text-shadow: 0 0 6px #ff0000, 0 0 12px #ff2d2d;
     }
     .card {
-      background: linear-gradient(145deg, #111, #1a1a1a);
+      background: linear-gradient(145deg, #101010, #1b1b1b);
       border: 1px solid #ff0000;
-      box-shadow: 0 0 15px #ff0000a8;
-    }
-    .student-vibe {
-      font-family: 'Comic Sans MS', cursive;
-      color: #ff4d4d;
-      text-shadow: 0 0 6px #ff1a1a;
+      box-shadow: 0 0 12px #ff000088;
+      max-width: 700px;
     }
   </style>
 </head>
 <body>
-  <div class="max-w-lg w-full p-8 rounded-xl text-center transform transition duration-500 hover:scale-[1.03] card">
-    <h1 class="text-3xl font-extrabold neon-red mb-3">
-      Лабораторна робота №9: PaaS. Хостинг
+  <div class="w-full p-10 rounded-xl text-center transform transition duration-500 hover:scale-[1.02] card">
+    <h1 class="text-3xl font-extrabold neon-red mb-4">
+      Лабораторна робота №9
     </h1>
 
-    <p class="text-gray-300 mt-4 text-lg">
-      Тема роботи — <span class="text-red-500 font-semibold">хостинг на платформі PaaS</span>.
-      Мета — навчитися створювати та розгортати власний сайт у хмарному середовищі.
+    <h2 class="text-xl text-red-500 font-semibold mb-6">
+      Тема: PaaS. Хостинг.
+    </h2>
+
+    <p class="text-gray-300 text-justify mb-4">
+      Метою лабораторної роботи є ознайомлення з принципами роботи сервісів типу
+      <span class="text-red-500 font-medium">Platform as a Service (PaaS)</span>
+      та набуття практичних навичок розгортання вебсайтів у хмарному середовищі.
     </p>
 
-    <p class="text-gray-400 mt-4">
-      <span class="text-red-500 font-bold">Render</span> — це сучасна хмарна платформа типу <span class="italic">Platform as a Service</span>.
-      Вона дозволяє розміщувати вебсайти, API та застосунки без складного налаштування серверів.
+    <p class="text-gray-300 text-justify mb-4">
+      У межах завдання було створено простий вебсайт з використанням HTML,
+      який розгорнуто на платформі <span class="text-red-500 font-medium">Render</span>.
+      Цей сервіс надає можливість розміщення вебзастосунків без необхідності налаштування
+      інфраструктури вручну. Користувачеві достатньо під’єднати репозиторій із кодом —
+      система автоматично виконує розгортання та оновлення сайту.
     </p>
 
-    <p class="text-gray-400 mt-4">
-      У межах лабораторної роботи було створено простий сайт з власним іменем,
-      який демонструє роботу хостингу через Render.
+    <p class="text-gray-300 text-justify mb-4">
+      Render є прикладом сучасної PaaS-платформи, яка поєднує простоту використання
+      з гнучкістю хмарного хостингу. Такий підхід дає змогу швидко запускати й
+      підтримувати вебпроєкти без адміністрування серверів.
     </p>
 
-    <p class="text-xl font-bold student-vibe mt-6">
-      Студентка: Соломія Красовська 💻
-    </p>
-
-    <p class="text-sm text-gray-500 mt-3 italic">
-      “Якщо сайт працює — значить, усе вдалося 😎”
+    <p class="text-gray-300 text-justify mt-6">
+      Виконала: <span class="text-red-500 font-semibold">студентка Соломія Красовська</span>
     </p>
   </div>
 </body>
